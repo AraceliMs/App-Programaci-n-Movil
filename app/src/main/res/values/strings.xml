@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Programacion_movil</string>
+    <string-array name="roles">
+        <item>Alumno</item>
+        <item>Maestro</item>
+        <item>Local</item>
+    </string-array>
+</resources>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/figu"
+    tools:context=".viscosidad"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="318dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/botton_trans"
+            android:backgroundTint="#C95E5757" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="43dp"
+            android:backgroundTint="#DDC1C1"
+            android:fontFamily="@font/armata"
+            android:rotationX="0"
+            android:text="Viscosidad"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/botton_trans"
+            android:backgroundTint="#A9A39E9E"
+            android:fontFamily="@font/autour_one"
+            android:outlineAmbientShadowColor="#A9000000"
+            android:outlineSpotShadowColor="#A9000000"
+            android:shadowColor="#A9000000"
+            android:text="Actividades"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <ScrollView
+            android:layout_width="358dp"
+            android:layout_height="508dp"
+            android:layout_above="@+id/button5"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="58dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:fontFamily="@font/bevan"
+                    android:text="¿Que es la viscosidad?"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    app:srcCompat="@drawable/definici_n_de_viscosidad" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:fontFamily="@font/actor"
+                    android:text="La viscosidad se refiere a la resistencia que poseen algunos líquidos durante su fluidez y deformación."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:fontFamily="@font/actor"
+                    android:justificationMode="inter_word"
+                    android:text="Por tanto, la viscosidad es una de las principales características de los líquidos, y se determina de la siguiente manera: mientras más resistencia posee un líquido para fluir y deformarse, más viscoso es."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/bevan"
+                    android:text="Ejemplos de viscosidad"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    app:srcCompat="@drawable/viscosidad_ilust_lifeder" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:text="1.- Miel"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:text="2.- Lubricantes "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:fontFamily="@font/actor"
+                    android:text="3.- Shampoo"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:fontFamily="@font/actor"
+                    android:justificationMode="inter_word"
+                    android:text="Esta propiedad puede variar al someter el líquido al calor, ya que disminuye la viscosidad y permite que se desplace con mayor rapidez, como cuando se calienta la miel."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/bevan"
+                    android:text="Tipos de viscosidad"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/tipos_de_viscosidad" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:fontFamily="@font/actor"
+                    android:text="- Dinamica"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:fontFamily="@font/actor"
+                    android:justificationMode="inter_word"
+                    android:text="Es conocida por el nombre viscosidad absoluta. Se caracteriza por la resistencia interna que se forma entre las moléculas de un fluido, a fin de mantenerse unidas y no dispersase, lo que afecta su flujo y determina su viscosidad."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:fontFamily="@font/actor"
+                    android:text="- Cinemática"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/actor"
+                    android:justificationMode="inter_word"
+                    android:text="Otro tipo de viscosidad es la viscosidad cinemática, que se calcula dividiendo la viscosidad dinámica por la densidad de fluido a fin obtener las fuerzas que generan el movimiento."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:justificationMode="inter_word"
+                    android:text="Se calcula a través del cociente de la viscosidad dinámica por la densidad de la sustancia, y su unidad es el stoke o centistoke (cm2/seg)."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bevan"
+                    android:text="Viscosidad de algunos elementos quimicos:"
+                    android:textColor="#000000" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:text="Glicerina a 20° C: 1,5 (N s)/m2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:text="Aceite para motores a 20° C: 0,03 (N s)/m2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:text="Gasolina a 20° C: 2,9×10-4 (N s)/m2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:text="Sangre humana a 37° C: 4,0×10-3 (N s)/m2 "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/actor"
+                    android:text="Aire a 20 °C: 1,8×10-5 (N s)/m2"
+                    android:textColor="#000000" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="91dp"
+                    app:srcCompat="@drawable/_395058" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
